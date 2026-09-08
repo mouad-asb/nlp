@@ -1,0 +1,7 @@
+name: nlpproject
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13.9
+prefix: /Users/mouad/miniconda3/envs/nlpproject
