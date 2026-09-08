@@ -16,9 +16,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from knowledge_base import KnowledgeBase
 from embedder import get_embeddings, embed
 
-API_KEY  = "sk-llmduckt-bfd23b838cc588fbf11aca79dfef6faaf3be48e3490d3cc1443f44d020292b27"
-BASE_URL = "https://flaait.tugraz.at/llmduckt/llmapi/v1/"
-MODEL    = "tugrazflaait/ministral-3:14b"
+API_KEY  = ""
+BASE_URL = ""
+MODEL    = ""
 
 K       = 4      # total examples: K/2 facts + K/2 opinions
 MIN_SIM = 0.45   # fallback to zero-shot if best similarity below this treshhold
